@@ -14,7 +14,7 @@ const serverClient = StreamChat.getInstance(api_key, api_secret);
 
 
 app.get("/" , async(req,res)=>{
-  res.send("api working")
+  res.send("Api working")
 })
 app.post("/signup", async (req, res) => {
   try {
