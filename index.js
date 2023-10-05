@@ -7,9 +7,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-const api_key = "z2szkrubae2c";
+const api_key = "96mqpka9j5dh";
 const api_secret =
-  "6dvmv9drcr7buhqj6d55yvx3s468tfrgb26szhwrwykbpj4936jayvfr2nz8nure";
+"74825r7xxd3nfvh3x995yhwag83ktvp8n7bgwa6q53vawbnna9b6pwps528rgydf";
 const serverClient = StreamChat.getInstance(api_key, api_secret);
 
 
